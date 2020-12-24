@@ -1,0 +1,2 @@
+So this is me trying to do my first semi-proper web project. I actually forgot most of the HTML and CSS stuff I need to build this page
+so I'm gonna go look it up again and get to it. Hopefully with time and practice I won't have to look those up again.
