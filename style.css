@@ -1,5 +1,6 @@
 body{
     background-color: #fff;
+    font-family: arial,sans-serif;
 }
 
 #logo{
@@ -101,13 +102,14 @@ footer{
     display: inline-block;
 }
 
-#bordertop{
-    border-top: 1px solid #dadce0;
+
+.borderbottom{
+    border-bottom: 1px solid #dadce0;
 }
 
 .ffc{
-    font: arial,sans-serif;
-    color: rgba(0,0,0,.54);
+    font-size: 14px;
+    color:#70757a;
 }
 
 #flt-right{
