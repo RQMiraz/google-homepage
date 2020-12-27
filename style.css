@@ -3,8 +3,8 @@ body{
     font-family: arial,sans-serif;
 }
 
-#logo{
-    justify-content: ;
+#square-thing{
+    margin:-6px ;
 }
 
 .nav-stuff{
@@ -12,14 +12,43 @@ body{
     margin: 10px 5px;
 }
 
+
 #pfp{
     border-radius: 50%;
     margin-top: -8px;
     cursor: pointer;
 }
 
-#search-box{
-    justify-content:;
+.search-box{
+    display: flex;
+    border: 1px solid #dfe1e5;
+    width:582px;
+    height:34px;
+    border-radius: 24px;
+}
+
+.search-icon{
+    flex:1 0 auto;
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    padding-left: 14px;
+}
+
+.mic-icon{
+    display: flex;
+    align-items: center;
+    width: 24px;
+    padding:0px 8px 0px 8px;
+    cursor: pointer;
+}
+
+.search-input{
+    display: flex;
+    flex:1 1 100%;
+    padding: 0px;
+    margin:0px;
+    height:34px;
 }
 
 nav{
@@ -44,6 +73,7 @@ a:hover{
     margin: 15px 15px;
 }
 
+
 main {
     -webkit-appearance: none;
     display: flex;
@@ -54,10 +84,9 @@ main {
 
 input{
     
-    height: 44px;
-    width: 600px;
-    border-radius: 60px;
-    border:2px solid rgb(237, 243, 243);
+    height:34px !important;
+    width: ;
+    border:none;
     outline: none;
 }
 
